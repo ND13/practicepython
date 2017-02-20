@@ -1,3 +1,4 @@
+#using getpass to hide user input
 import getpass
 
 def play_game():
@@ -6,6 +7,7 @@ def play_game():
 	print('')
 	print('Player 1 chose: ' + player_1)
 	print('Player 2 chose: ' + player_2)
+	print('')
 
 	if player_1 == 'rock' and player_2 == 'scissors':
 		print('Player 1 wins!')
